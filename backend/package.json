@@ -7,6 +7,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -19,6 +21,7 @@
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.9.4",
     "nodemon": "^3.1.14",
-    "parser": "^0.1.4"
+    "parser": "^0.1.4",
+    "razorpay": "^2.9.8"
   }
 }

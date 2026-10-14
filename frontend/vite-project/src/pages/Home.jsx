@@ -62,7 +62,7 @@ function Home() {
           </dl>
         </article>
 
-        <Link className="button button-primary" to="/">
+        <Link className="button button-primary" to="/products">
           Start exploring <span aria-hidden="true">→</span>
         </Link>
       </section>
